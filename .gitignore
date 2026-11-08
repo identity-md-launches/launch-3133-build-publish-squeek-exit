@@ -1,0 +1,9 @@
+# Explicit path budget: dependency directories at every depth; task inputs,
+# workspace cache, and disposable validation scratch only. dist/ is delivered.
+**/node_modules/
+**/.npm/
+**/.vite/
+**/*.tsbuildinfo
+/.cache/
+/.imd/
+/test/scratch/
